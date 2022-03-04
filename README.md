@@ -1,2 +1,2 @@
 # portfolio
-## [live view](https://youthful-lalande-c3cc4d.netlify.app/)
+## [live view](https://hopeful-jones-a1fdab.netlify.app/)

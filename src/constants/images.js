@@ -12,6 +12,7 @@ import javascript from '../assets/javascript.png';
 import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
+import bigbrother from "../assets/bigbrother.png";
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
@@ -26,7 +27,7 @@ import about04 from '../assets/about04.png';
 import profile from "../assets/tosin.png";
 
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.svg';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -51,6 +52,7 @@ export default {
   mu5,
   node,
   python,
+bigbrother ,
   react,
   redux,
   sass,
@@ -62,7 +64,7 @@ export default {
   about04,
   profile,
   circle,
-  logo,
+  // logo,
   adidas,
   amazon,
   asus,
