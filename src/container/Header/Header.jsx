@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import emoji from "react-easy-emoji";
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.css';
@@ -25,11 +25,12 @@ const Header = () => (
     >
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
-          <span>👋</span>
+          <span className="wave-emoji">{emoji("👋")}</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
             <h1 className="head-text">Tosin</h1>
           </div>
+
         </div>
 
         <div className="tag-cmp app__flex">
@@ -44,7 +45,7 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src={images.bigbrother} alt="profile_bg"
+      <img src={images.me} alt="profile_bg"
       />
       <motion.img
         whileInView={{ scale: [0, 1] }}
